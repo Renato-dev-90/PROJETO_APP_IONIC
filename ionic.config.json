@@ -1,0 +1,7 @@
+{
+  "name": "recanto_do_sabor",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "ionic-angular"
+}
