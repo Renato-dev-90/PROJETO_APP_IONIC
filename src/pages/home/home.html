@@ -1,14 +1,52 @@
 <ion-header>
-  <ion-navbar>
+    <ion-navbar color="secondary">
+
     <ion-title>
-      Ionic Blank
+      <h2>RECANTO DO SABOR <br> RESTAURANTE</h2>
     </ion-title>
+
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v3">docs</a> will be your guide.
-  </p>
+<ion-content>
+<div class="fundo">
+  <ion-title>
+
+    <h2>SEMPRE O MELHOR</h2>
+
+    <img src="assets/imgs/recanto.jpg" />
+
+  </ion-title>
+
+  <ion-card (click)="pratododia()" >
+    <img src="assets/imgs/pp.jpg" />
+    <div class="card-nome">PRATO DO DIA</div>
+    <div class="card-subnome">COMPLETÃO</div>
+  </ion-card>
+
+  <ion-card (click)="lanches()" >
+    <img src="assets/imgs/lanches.jpg" />
+    <div class="card-nome">LANCHES</div>
+        <div class="card-subnome">PARA TODOS OS GOSTOS</div>
+
+  </ion-card>
+
+  <ion-card (click)="pratoprincipal()" >
+    <img src="assets/imgs/refeição.jpg" />
+    <div class="card-nome">PRATOS DE ENTRADA</div>
+    <div class="card-subnome">SALADAS/ SALGADINHOS/ REFEIÇÕES E MAIS</div>
+  </ion-card>
+
+  <ion-card (click)="sobremesas()" >
+    <img src="assets/imgs/sobremesas.jpg" />
+    <div class="card-nome">SOBREMESAS</div>
+    <div class="card-subnome">SORVETES, TORTAS, BOLOS E MAIS</div>
+  </ion-card>
+
+  <ion-card (click)="bebidas()" >
+    <img src="assets/imgs/bebidas.jpg" />
+    <div class="card-nome">BEBIDAS</div>
+    <div class="card-subnome">REFRIGERANTES, SUCOS, CERVEJAS E MAIS</div>
+  </ion-card>
+  </div>
 </ion-content>
